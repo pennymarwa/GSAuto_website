@@ -1,0 +1,24 @@
+#menu
+{
+	padding:0px;
+	margin:0px;
+}
+#menu li
+{
+	margin-left:15px;
+	margin-right:15px;
+}
+#menu li a
+{
+	text-decoration:none;
+	color:#FFF;
+	padding-top:20px;
+	padding-bottom:30px;
+	padding-left:30px;
+	padding-right:30px;
+
+}
+#menu li a:hover
+{
+	background-color:#DC483A;
+}

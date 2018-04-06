@@ -1,0 +1,102 @@
+/********************/
+#gallery {
+	background:url(../images/backk2.png) no-repeat 0px 0px;
+	padding-top:4em;
+	background-size:cover;
+	height: 400px;
+	}
+.our-story p{
+	font-size: 2.8em;
+	color:#000;
+	line-height: 1.9em;
+	margin:0 auto;
+	text-align:center;
+	font-weight:600;
+	font-family: 'Raleway', sans-serif;
+}
+.our-story h4{
+	font-size: 3.3em;
+	font-weight:600;
+	color:#000;
+	margin-bottom: 0.3em;
+	margin: 0 auto;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+}
+.cau_left{
+	margin-top: 20%;
+}
+/******************/
+/*----start-media-quries-for-1024px-Laptops-----*/
+@media (max-width:1024px){
+	
+	#gallery {
+		height: 726px;
+	}
+}
+/*----start-media-quries-for-800px-----*/
+@media (max-width:800px){
+	
+	.our-story p {
+		font-size:2em;
+	}
+	#gallery {
+		height: 491px;
+	}
+	
+}
+/*----start-media-quries-for-768px-----*/
+@media (max-width:768px){
+	
+	.our-story h4 {
+		font-size: 2.2em;
+	}
+	.our-story p {
+		font-size:2em;
+	}
+	
+	#gallery {
+		height: 491px;
+	}
+	
+}
+/*----start-media-quries-for-640-----*/
+@media (max-width:640px){
+	
+	#gallery {
+		height: 490px;
+		padding-top: 2em;
+	}
+	.our-story p {
+	font-size: 2.3em;
+	}
+	
+	#gallery {
+		height: 443px;
+		padding-top: 2em;
+	}
+	
+}
+/*----start-media-quries-for-480-----*/
+@media (max-width:480px){
+	#gallery {
+		height: 344px;
+	}
+	
+}
+
+/*----start-media-quries-for-320-----*/
+@media (max-width:320px){
+	.our-story p {
+		font-size: 1.3em;
+	}
+	
+	#gallery {
+		height:189px;
+		width: 100%;
+	}
+	
+}
+
+/*----//End-media-quries-for-320px-----*/
+

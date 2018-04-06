@@ -1,0 +1,30 @@
+#d1
+{
+	width:100%;
+	height:475px;
+	background-image:url(../images/g2.png);
+	position:absolute;
+	box-shadow: 15px 25px 30px #999966;
+}
+#d2
+{
+	width:1000px;
+	height:200px;
+	padding-left:300px;
+	padding-top:30px;
+	margin-left:180px;
+	margin-top:350px;
+	position:relative;
+	background-color:rgba(153,153,102,0.59);
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#d2:hover
+{
+		-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
